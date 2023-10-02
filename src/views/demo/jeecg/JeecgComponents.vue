@@ -21,7 +21,7 @@
     <template #JPopup="{ model, field }">
       <JPopup v-model:value="model[field]" :formElRef="formElRef" code="report_user" :fieldConfig="[{ source: 'username', target: 'pop1' }]" />
     </template>
-    <template #JAreaSelect="{ model, field }">
+    <template #JAreaSelect="{ model, field }"> 
       <JAreaSelect v-model:value="model[field]" />
     </template>
     <template #JCheckbox="{ model, field }">
